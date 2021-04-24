@@ -1,0 +1,77 @@
+html{
+background: url(video/flamantenuevo.png) no-repeat center center fixed;
+-webkit-background:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size: cover;
+
+}
+
+
+body{
+    margin: 0;
+    height: 100%;
+    weight:100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.modoboton {
+  background: url(video/instagram.png) center;
+  background-size: 100% 100%;
+  border: none;
+  z-index: 2;
+  position:absolute;
+    top:92%;
+    left: 56%;
+}
+
+.boton {
+  background: url(video/pdf.png) center;
+  background-size: 100% 100%;
+  z-index: 2;
+  position:absolute;
+    top:92%;
+    left: 34%;
+}
+
+.credito{
+  z-index: 2;
+  position:absolute;
+  top:97%;
+  left: 43%;
+
+
+}
+
+.btn {
+
+  color: #fff;
+  font-size: 2.4rem;
+  padding: 2rem 4rem;
+  text-decoration: none;
+  border-radius: 50em;
+  text-shadow: 2px 2px 0 $subcolor;
+  &:before {
+    border-radius: 100em;
+    left: -1px;
+    top: -1px;
+}
+}
+
+.btn2 {
+
+  color: #fff;
+  font-size: 2.4rem;
+  padding: 2rem 4rem;
+  text-decoration: none;
+  border-radius: 50em;
+  text-shadow: 2px 2px 0 $subcolor;
+  &:before {
+    border-radius: 100em;
+    left: -1px;
+    top: -1px;
+}
+}
